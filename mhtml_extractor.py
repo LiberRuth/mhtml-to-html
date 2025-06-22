@@ -109,7 +109,7 @@ class MHTMLToSingleHTML:
         with open(self.output_html_path, "w", encoding="utf-8") as f:
             f.write(final_html)
 
-        logging.info(f"✅ Saved self-contained HTML to: {self.output_html_path}")
+        logging.info(f"Saved HTML to: {self.output_html_path}")
 
 if __name__ == "__main__":
     import argparse
